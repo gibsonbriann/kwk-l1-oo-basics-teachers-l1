@@ -2,7 +2,7 @@
 # Add your Book class here
 class Book
   #getter + setter
-  attr_accessor :author :page_count :genre
+  attr_accessor :author, :page_count, :genre
   
   #getter
   attr_reader :title
