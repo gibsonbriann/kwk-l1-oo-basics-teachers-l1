@@ -7,6 +7,9 @@ class Book
   #getter
   attr_reader :title
   
+  #setter
+  #attr_writer :thing
+  
   def initialize(title)
     @title = title
   end
